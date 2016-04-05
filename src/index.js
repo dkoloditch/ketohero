@@ -1,5 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
+import ketoApp from './reducers';
+import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let store = createStore(ketoApp);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+);
