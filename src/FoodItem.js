@@ -23,7 +23,6 @@ export default class FoodItem extends React.Component {
     }
     return (
       <div>
-        <span>ID: {food.id} | </span>
         <span>{food.protein}% | {food.fat}% | {food.carbs}% | </span>
         <span>{food.name}</span>
         <span>{food.children} | </span>

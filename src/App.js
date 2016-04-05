@@ -8,14 +8,14 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      currentView: 'FoodItem'
+      currentView: 'FoodList'
     }
   }
   render() {
     const views = {
       FoodList: <FoodList />,
       FoodItem: <FoodItem id={2} />,
-      MealItem: <MealItem  />
+      MealItem: <MealItem id={2} quantity={200} />
     }
 
     return (
