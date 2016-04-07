@@ -1,39 +1,53 @@
-const data = [
+const foodData = [
   {
     id: 0,
-    name: 'Food1',
+    name: 'Bread',
     protein: 20,
     fat: 70,
     carbs: 10
   },
   {
     id: 1,
-    name: 'Food2',
+    name: 'Peanut Butter',
     protein: 20,
     fat: 70,
     carbs: 10
   },
   {
     id: 2,
-    name: 'Food3',
+    name: 'Jelly',
     protein: 20,
     fat: 70,
     carbs: 10
   },
   {
     id: 3,
-    name: 'Food4',
+    name: 'Apple',
     protein: 20,
     fat: 70,
     carbs: 10
   },
   {
     id: 4,
-    name: 'Food5',
+    name: 'Cheese',
     protein: 20,
     fat: 70,
     carbs: 10
   },
+  {
+    id: 5,
+    name: 'Butter',
+    protein: 20,
+    fat: 70,
+    carbs: 10
+  },
+  {
+    id: 6,
+    name: 'Pasta',
+    protein: 20,
+    fat: 70,
+    carbs: 10
+  }
 ];
 
-export default data;
+export default foodData;

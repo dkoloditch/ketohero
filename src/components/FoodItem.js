@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles';
 
-import data from './mockData';
+import foodData from '../data/foodData';
 
 export default class FoodItem extends React.Component {
 
@@ -20,7 +20,7 @@ export default class FoodItem extends React.Component {
     if(this.props.id === null) {
       food = this.props;
     } else {
-      food = data[this.props.id]
+      food = foodData[this.props.id]
     }
     return (
       <div className='foodContainer' style={styles.foodItem}>

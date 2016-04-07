@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './mockData';
+import foodData from '../data/foodData';
 
 import FoodItem from './FoodItem';
 
@@ -16,7 +16,7 @@ class FoodList extends React.Component {
   	// Fetch the data, set the state
   	// state.FoodItems = array of individual foods
     this.setState({
-      FoodItems: data,
+      FoodItems: foodData,
       loading: false
     });
   }
