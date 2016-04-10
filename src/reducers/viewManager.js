@@ -1,4 +1,4 @@
-const viewManager = (state = 'FoodList', action) => {
+const viewManager = (state = 'MealList', action) => {
   switch (action.type) {
     case 'CHANGE_VIEW':
       return action.view

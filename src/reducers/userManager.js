@@ -1,7 +1,7 @@
 const userManager = (state = 0, action) => {
   switch (action.type) {
     case 'CHANGE_USER':
-      return action.userID
+      return action.user
     default:
       return state
   }

@@ -1,24 +1,24 @@
 import { connect } from 'react-redux';
-import { changeView } from '../actions';
+import { changeUser } from '../actions';
 import Link from '../components/Link';
 
 const mapStateToProps = (state, ownProps) => {
   return {
-    active: ownProps.view === state.viewManager
+    active: ownProps.user === state.userManager
   }
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {
   return {
     onClick: () => {
-      dispatch(changeView(ownProps.view))
+      dispatch(changeUser(ownProps.user))
     }
   }
 }
 
-const ViewLink = connect(
+const UserLink = connect(
   mapStateToProps,
   mapDispatchToProps
 )(Link)
 
-export default ViewLink;
+export default UserLink;

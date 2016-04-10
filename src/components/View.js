@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ViewChanger from './ViewChanger';
+import UserChanger from './UserChanger';
 
 import FoodItem from './FoodItem';
 import FoodList from './FoodList';
@@ -9,21 +10,25 @@ import MealList from './MealList';
 
 import styles from './styles';
 
-const View = ({ view, user }) => {
+const View = ({ view, user, meals }) => {
 
   const views = {
     FoodList: <FoodList />,
     FoodItem: <FoodItem id={2} />,
     MealItem: <MealItem id={2} quantity={200} />,
-    MealList: <MealList meals={user.mealIds} />
+    MealList: <MealList meals={meals} />
   }
 
   return (
-    <div style={styles.app}>
+    <div className='app-container'>
       <h1>KetoHero</h1>
       <h3>Stuff</h3>
       <h3>{"Username: " + user.username}</h3>
-      <ViewChanger />
+      <div className='testing-buttons'>
+        <p>Testing buttons</p>
+        <ViewChanger />
+        <UserChanger />
+      </div>
       {views[view]}
     </div>
   );

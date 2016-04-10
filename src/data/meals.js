@@ -19,7 +19,7 @@ const mealsData = [
   },
   {
     _mealId: 1,
-    name: 'PB&J',
+    name: 'Plain Pizza',
     mealItems: [
       {
         _foodId: 0,
@@ -37,7 +37,7 @@ const mealsData = [
   },
   {
     _mealId: 2,
-    name: 'PB&J',
+    name: 'Chocolate Ice Cream',
     mealItems: [
       {
         _foodId: 0,
@@ -55,7 +55,7 @@ const mealsData = [
   },
   {
     _mealId: 3,
-    name: 'PB&J',
+    name: 'Apples and Peanut Butter',
     mealItems: [
       {
         _foodId: 0,
@@ -73,7 +73,7 @@ const mealsData = [
   },
   {
     _mealId: 4,
-    name: 'PB&J',
+    name: 'Swordfish',
     mealItems: [
       {
         _foodId: 0,
@@ -91,7 +91,7 @@ const mealsData = [
   },
   {
     _mealId: 5,
-    name: 'PB&J',
+    name: 'Deep Fried Mayonnaise',
     mealItems: [
       {
         _foodId: 0,
@@ -109,7 +109,7 @@ const mealsData = [
   },
   {
     _mealId: 6,
-    name: 'PB&J',
+    name: 'Fried Chicken',
     mealItems: [
       {
         _foodId: 0,

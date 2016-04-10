@@ -12,7 +12,7 @@ export default class MealItem extends React.Component {
     return (
       <div>
         <FoodItem id={this.props.id}>
-          <Quantity />
+          <Quantity quantity={this.props.quantity} />
         </FoodItem>
       </div>
     )
