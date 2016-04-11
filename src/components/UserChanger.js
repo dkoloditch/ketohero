@@ -3,7 +3,7 @@ import UserLink from '../containers/UserLink'
 
 const UserChanger = () => (
   <p>
-    Show:
+    Pick a user:
     {" "}
     <UserLink user={0}>
       test

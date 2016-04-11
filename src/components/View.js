@@ -22,13 +22,12 @@ const View = ({ view, user, meals }) => {
   return (
     <div className='app-container'>
       <h1>KetoHero</h1>
-      <h3>Stuff</h3>
-      <h3>{"Username: " + user.username}</h3>
       <div className='testing-buttons'>
         <p>Testing buttons</p>
         <ViewChanger />
         <UserChanger />
       </div>
+      <h3>{"Username: " + user.username}</h3>
       {views[view]}
     </div>
   );

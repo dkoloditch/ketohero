@@ -3,7 +3,7 @@ import ViewLink from '../containers/ViewLink'
 
 const ViewChanger = () => (
   <p>
-    Show:
+    Pick a view:
     {" "}
     <ViewLink view="MealList">
       Meal List
