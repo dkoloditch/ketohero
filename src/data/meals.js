@@ -22,15 +22,15 @@ const mealsData = [
     name: 'Plain Pizza',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 3,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 5,
         quantity: 50
       },
       {
-        _foodId: 2,
+        _foodId: 6,
         quantity: 50
       }
     ]
@@ -40,15 +40,15 @@ const mealsData = [
     name: 'Chocolate Ice Cream',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 2,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 4,
         quantity: 50
       },
       {
-        _foodId: 2,
+        _foodId: 0,
         quantity: 50
       }
     ]
@@ -58,15 +58,15 @@ const mealsData = [
     name: 'Apples and Peanut Butter',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 6,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 5,
         quantity: 50
       },
       {
-        _foodId: 2,
+        _foodId: 4,
         quantity: 50
       }
     ]
@@ -76,11 +76,11 @@ const mealsData = [
     name: 'Swordfish',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 1,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 4,
         quantity: 50
       },
       {
@@ -94,15 +94,15 @@ const mealsData = [
     name: 'Deep Fried Mayonnaise',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 5,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 3,
         quantity: 50
       },
       {
-        _foodId: 2,
+        _foodId: 4,
         quantity: 50
       }
     ]
@@ -112,15 +112,15 @@ const mealsData = [
     name: 'Fried Chicken',
     mealItems: [
       {
-        _foodId: 0,
+        _foodId: 6,
         quantity: 100
       },
       {
-        _foodId: 1,
+        _foodId: 4,
         quantity: 50
       },
       {
-        _foodId: 2,
+        _foodId: 3,
         quantity: 50
       }
     ]
