@@ -9,6 +9,9 @@ module.exports = function(app, cb) {
 
   var postgres = app.datasources.postgres;
 
-  postgres.automigrate(cb); // creates a new database based on config
-  // postgres.autoupdate(cb); // attempt to automatically update the data and database
+  // creates a new database based on config
+  postgres.automigrate(cb);
+
+  // attempt to automatically update the data and database
+  // postgres.autoupdate(cb);
 };
