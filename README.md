@@ -4,7 +4,7 @@
 
 ## Setup
 
-Ketohero uses a [Vagrant](https://www.vagrantup.com/) virtual machine as the
+Keto Hero uses a [Vagrant](https://www.vagrantup.com/) virtual machine as the
 development environment. This isolates your dev environment from your host
 machine, ensures everyone has the same setup, and automatically installs
 everything you need to get going. Just follow these steps:
