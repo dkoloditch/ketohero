@@ -30,7 +30,7 @@ complete the provisioning.
 ## Running the App
 
 1. `vagrant ssh` to login into the virtual machine.
-2. `cd /vagrant/ketohero` to navigate to the project.
+2. `cd /vagrant` to navigate to the project.
 3. `node .` to start the server.
 4. Open your browser and go to http://ketohero.dev:3000.
 5. Rejoice!
