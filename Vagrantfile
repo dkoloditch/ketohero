@@ -121,21 +121,21 @@ Vagrant.configure(2) do |config|
     sudo service postgresql restart
     sudo -u postgres createuser -D -w vagrant
     sudo -u postgres createdb -O vagrant ketohero
-    sudo cp /vagrant/ketohero/pg_hba.conf /etc/postgresql/9.*/main/pg_hba.conf
+    sudo cp /vagrant/pg_hba.conf /etc/postgresql/9.*/main/pg_hba.conf
     sudo service postgresql restart
 
     # install ketohero dependencies
     echo " "
     echo Installing ketohero dependencies...
     echo " "
-    cd /vagrant/ketohero
+    cd /vagrant
     npm install
 
     # loopback db config
     echo " "
     echo Creating loopback db config...
     echo " "
-    cp /vagrant/ketohero/server/datasources.local.example.json /vagrant/ketohero/server/datasources.local.json
+    cp /vagrant/server/datasources.local.example.json /vagrant/server/datasources.local.json
 
     # calculate provisioning time
     date2=$(date +"%s")
