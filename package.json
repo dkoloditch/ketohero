@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node .",
     "pretest": "jshint .",
-    "posttest": "nsp check"
+    "posttest": "nsp check",
+    "api": "node .",
+    "client": "./node_modules/.bin/webpack-dev-server --config server/webpack.dev.config.js"
   },
   "dependencies": {
     "babel-core": "^6.7.4",
