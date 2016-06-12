@@ -35,7 +35,7 @@ Once `vagrant up` has finished, follow these steps to start the server.
 4. Open a second terminal, navigate to the project folder, and run `vagrant rsync-auto` (required for rsync file syncing and webpack hot reload)
 5. Open your browser
 	- Backend:	http://ketohero.dev:3000/explorer
-	- Frontend:	http://ketohero.dev:8080/client
+	- Frontend:	http://ketohero.dev:8080
 6. Rejoice!
 
 #### Troubleshooting
